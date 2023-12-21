@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TutoPub</title>
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="container">
+  <!-- Navbar -->
+  <div class="container-md bg-dark p-3">
+    <img src="./assets/image/TutoPub-Logo.png" class="img-fluid" alt="logo"/>
+  </div>
+
+  <!-- Form -->
+  <div class="container-md bg-light my-3 border rounded-3 d-flex justify-content-md-center">
+    <div class="w-md-50">
+      <h3 class="mt-4 fw-bold text-primary">Talk to experts</h3>
+      <span class="fw-bold text-capitalize">Fill in the fields below and we will get back to you</span>
+
+      <form class="needs-validation mt-4" validate>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label class="form-label" for="inputFirstName">First Name</label>
+            <input type="text" class="form-control" id="inputFirstName" required />
+            <div class="invalid-feedback">
+              Please enter a valid First Name.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label" for="inputlastName">Last Name</label>
+            <input type="text" class="form-control" id="inputlastName" required />
+            <div class="invalid-feedback">
+              Please enter a valid Last Name.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md mb-3">
+            <label class="form-label" for="inputCompanyName">Company Name</label>
+            <input type="text" class="form-control" id="inputCompanyName" required />
+            <div class="invalid-feedback">
+              Please enter a valid Company Name.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label class="form-label" for="inputMobile">Mobile</label>
+            <input type="number" class="form-control" id="inputMobile" required />
+            <div class="invalid-feedback">
+              Please enter a valid Mobile Number.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label" for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" required />
+            <div class="invalid-feedback">Please enter a valid Email.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label class="form-label" for="inputAppoinmentDate">Appoinment Date</label>
+            <input type="date" class="form-control" id="inputAppoinmentDate" required />
+            <div class="invalid-feedback">
+              Please enter a valid Appoinment Date.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label" for="inputTime">Time</label>
+            <input type="time" class="form-control" id="inputTime" required />
+            <div class="invalid-feedback">Please enter a valid Time.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md mb-3">
+            <label class="form-label" for="inputAddress">Address</label>
+            <textarea class="form-control" id="inputAddress" rows="3" required style="resize: none"></textarea>
+            <div class="invalid-feedback">Please enter a valid Address.</div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Image cards -->
+  <div class="container-md my-3 p-0">
+    <div class="row">
+      <div class="col-md-4 my-3">
+        <div class="card bg-danger border rounded-3 text-white h-100 p-4">
+          <h4 class="card-title p-3 fw-bold">I am Rounded Image</h4>
+          <img src="./assets/image/prof-pic1.png" alt="Rounded profile picture" class="w-50 my-5 mx-auto rounded" />
+        </div>
+      </div>
+      <div class="col-md-4 my-3">
+        <div class="card bg-warning border rounded-3 text-white h-100 p-4">
+          <h4 class="card-title p-3 fw-bold">I am Rounded Circle Image</h4>
+          <img src="./assets/image/prof-pic2.png" alt="Rounded Circle profile picture"
+            class="w-50 my-5 mx-auto rounded-circle" />
+        </div>
+      </div>
+      <div class="col-md-4 my-3">
+        <div class="card bg-info border rounded-3 text-white h-100 p-4">
+          <h4 class="card-title p-3 fw-bold">I am Thumbnail Image</h4>
+          <img src="./assets/image/prof-pic1.png" alt="Thumbnail picture"
+            class="w-50 my-5 mx-auto img-thumbnail border-dark" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Profile Cards -->
+  <div class="container-md mt-4 p-0">
+    <h2 class="fw-bold">Profile Cards</h2>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card border-0">
+          <div class="card-body bg-primary text-white">
+              <img src="./assets/image/prof-pic1.png" alt="Rounded Circle profile picture"
+              class="w-50 mx-auto d-block py-4 rounded-circle" />
+              <div class="px-lg-5 px-sm-1 py-2">
+              <h4 class="card-title mb-2">Lorem ipsum dolor</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quis fugit odit, esse nemo dignissimos!</p>
+              </div>
+          </div>
+            <div class="card-footer">
+              <div class="px-lg-5 px-sm-1 py-2">
+                <b class="text-capitalize">Last updated 10 mins ago</b>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card bg-secondary border-0">
+            <div class="card-body text-white">
+              <img src="./assets/image/prof-pic1.png" alt="Rounded Circle profile picture"
+              class="w-50 mx-auto d-block py-4 rounded-circle" />
+              <div class="px-lg-5 px-sm-1 py-2">
+              <h4 class="card-title mb-2">Lorem ipsum dolor</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quis fugit odit, esse nemo dignissimos!</p>
+              </div>
+          </div>
+            <div class="card-footer bg-light">
+              <div class="px-lg-5 px-sm-1 py-2">
+                <b class="text-capitalize">Last updated 10 mins ago</b>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card bg-success border-0">
+            <div class="card-body text-white">
+              <img src="./assets/image/prof-pic1.png" alt="Rounded Circle profile picture"
+              class="w-50 mx-auto d-block py-4 rounded-circle" />
+              <div class="px-lg-5 px-sm-1 py-2">
+                <h4 class="card-title mb-2">Lorem ipsum dolor</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quis fugit odit, esse nemo dignissimos!</p>
+                  </div>
+            </div>
+            <div class="card-footer bg-light">
+              <div class="px-lg-5 px-sm-1 py-2">
+                <b class="text-capitalize">Last updated 10 mins ago</b>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+  <script src="./asstes/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
