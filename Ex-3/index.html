@@ -27,106 +27,139 @@
         <div class="accordion" id="myAccordion">
             <div class="accordion-item mt-4">
                 <h2 class="accordion-header" id="headingOne">
-                    <button type="button" class="accordion-button bg-light collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne">1. What is HTML?</button>
+                    <button type="button" class="accordion-button bg-light fw-bold text-muted collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#collapseOne">1. What is HTML?</button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse">
-                    <div class="card-body p-5 row">
-                        <div class="col-md-3">
-                            <img src="./assets/image/img2.png" alt="room" class="img-fluid">
-                        </div>
-                        <div class="col-md-9">
-                            <p class="lead text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsum sequi, cumque, sapiente eligendi repellat placeat accusantium, laborum quidem inventore quae veniam minus non porro obcaecati nemo nobis blanditiis iure!</p>
-                            <ul class="list text-muted">
-                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                            </ul> 
+                    <div class="card-body">
+                        <div class="row px-md-4">
+                            <div class="col-md-3 my-4 px-4">
+                                <img src="./assets/image/img2.png" alt="room" class="img-fluid">
+                            </div>
+                            <div class="col-md-9 my-md-4">
+                                <div class="container">
+                                    <p class="lead fw-bold p-2 text-primary">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Quaerat ipsum sequi, cumque, sapiente eligendi repellat placeat accusantium,
+                                        laborum quidem inventore quae veniam minus non porro obcaecati nemo nobis blanditiis
+                                        iure!</p>
+                                    <ul class="list lead text-muted">
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="accordion-item mt-4">
                 <h2 class="accordion-header" id="headingTwo">
-                    <button type="button" class="accordion-button bg-light collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo">2. What is Bootstrap?</button>
+                    <button type="button" class="accordion-button bg-light fw-bold text-muted collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo">2. What is Bootstrap?</button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse">
-                    <div class="card-body p-5 row">
-                        <div class="col-md-3">
-                            <img src="./assets/image/img2.png" alt="room" class="img-fluid">
-                        </div>
-                        <div class="col-md-9">
-                            <div class="table-responsive"> 
-                                <table class="table table-striped text-capitalize">
-                                    <thead>
-                                        <tr>
-                                            <th>Company Name</th>
-                                            <th>Top Priority Issue</th>
-                                            <th>Primary Issue</th>
-                                            <th>Issue Resolved</th>
-                                            <th>Warned Resolved</th>
-                                            <th>Total</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Lorem and Sons</td>
-                                            <td>2</td>
-                                            <td>1</td>
-                                            <td>68</td>
-                                            <td>41</td>
-                                            <td>149</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Lorem and Sons</td>
-                                            <td>2</td>
-                                            <td>1</td>
-                                            <td>68</td>
-                                            <td>41</td>
-                                            <td>149</td>
-                                        </tr><tr>
-                                            <td>Lorem and Sons</td>
-                                            <td>2</td>
-                                            <td>1</td>
-                                            <td>68</td>
-                                            <td>41</td>
-                                            <td>149</td>
-                                        </tr><tr>
-                                            <td>Lorem and Sons</td>
-                                            <td>2</td>
-                                            <td>1</td>
-                                            <td>68</td>
-                                            <td>41</td>
-                                            <td>149</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div> 
+                    <div class="card-body">
+                        <div class="row px-md-4">
+                            <div class="col-md-3 my-4 px-4">
+                                <img src="./assets/image/img2.png" alt="room" class="img-fluid">
+                            </div>
+                            <div class="col-md-9 my-md-4">
+                                <div class="container">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <tbody>
+                                            <tr class="text-center">
+                                                <th class="text-start text-secondary py-3">Company Name</th>
+                                                <th class="text-secondary py-3">Top Priority Issue</th>
+                                                <th class="text-secondary py-3">Primary Issue</th>
+                                                <th class="text-secondary py-3">Issue Resolved</th>
+                                                <th class="text-secondary py-3">Warned Resolved</th>
+                                                <th class="text-secondary py-3">Total</th>
+                                            </tr>
+                                            <tr class="text-center">
+                                                <th class="text-start py-3">Lorem and Sons</th>
+                                                <td class="py-3"><span
+                                                        class="badge bg-danger text-white px-4 py-2">2</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-primary text-white px-4 py-2">1</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-success text-white px-4 py-2">68</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-warning text-white px-4 py-2">81</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-dark text-white px-4 py-2">149</span></td>
+                                            </tr>
+                                            <tr class="text-center">
+                                                <th class="text-start py-3">Lorem and Sons</th>
+                                                <td class="py-3"><span
+                                                        class="badge bg-danger text-white px-4 py-2">2</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-primary text-white px-4 py-2">1</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-success text-white px-4 py-2">68</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-warning text-white px-4 py-2">81</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-dark text-white px-4 py-2">149</span></td>
+                                            </tr>
+                                            <tr class="text-center">
+                                                <th class="text-start py-3">Lorem and Sons</th>
+                                                <td class="py-3"><span
+                                                        class="badge bg-danger text-white px-4 py-2">2</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-primary text-white px-4 py-2">1</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-success text-white px-4 py-2">68</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-warning text-white px-4 py-2">81</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-dark text-white px-4 py-2">149</span></td>
+                                            </tr>
+                                            <tr class="text-center">
+                                                <th class="text-start py-3">Lorem and Sons</th>
+                                                <td class="py-3"><span
+                                                        class="badge bg-danger text-white px-4 py-2">2</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-primary text-white px-4 py-2">1</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-success text-white px-4 py-2">68</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-warning text-white px-4 py-2">81</span></td>
+                                                <td class="py-3"><span
+                                                        class="badge bg-dark text-white px-4 py-2">149</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="accordion-item mt-4">
                 <h2 class="accordion-header" id="headingThree">
-                    <button type="button" class="accordion-button bg-light collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree">3. What is CSS?</button>
+                    <button type="button" class="accordion-button bg-light fw-bold text-muted collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree">3. What is CSS?</button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse">
-                    <div class="card-body">
-                        <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a
-                        href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a>
+                    <div class="card-body p-5">
+                        <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for
+                            a given HTML element such as colors, backgrounds, fonts etc. <a
+                                href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="accordion-item mt-4">
                 <h2 class="accordion-header" id="headingFour">
-                    <button type="button" class="accordion-button bg-light collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour">4. What is HTML?</button>
+                    <button type="button" class="accordion-button bg-light fw-bold text-muted collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#collapseFour">4. What is HTML?</button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse">
-                    <div class="card-body">
+                    <div class="card-body p-5">
                         <p>HTML stands for HyperText Markup Language. HTML is the standard markup language for
                             describing the structure of web pages. <a
                                 href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a>
@@ -136,11 +169,11 @@
             </div>
             <div class="accordion-item mt-4">
                 <h2 class="accordion-header" id="headingFive">
-                    <button type="button" class="accordion-button bg-light collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFive">5. What is Bootstrap?</button>
+                    <button type="button" class="accordion-button bg-light fw-bold text-muted collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#collapseFive">5. What is Bootstrap?</button>
                 </h2>
                 <div id="collapseFive" class="accordion-collapse collapse">
-                    <div class="card-body">
+                    <div class="card-body p-5">
                         <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web
                             development. It is a collection of CSS and HTML conventions. <a
                                 href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/"
@@ -150,11 +183,11 @@
             </div>
             <div class="accordion-item mt-4">
                 <h2 class="accordion-header" id="headingSix">
-                    <button type="button" class="accordion-button bg-light collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSix">6. What is CSS?</button>
+                    <button type="button" class="accordion-button bg-light fw-bold text-muted collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#collapseSix">6. What is CSS?</button>
                 </h2>
                 <div id="collapseSix" class="accordion-collapse collapse">
-                    <div class="card-body">
+                    <div class="card-body p-5">
                         <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for
                             a given HTML element such as colors, backgrounds, fonts etc. <a
                                 href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a>
